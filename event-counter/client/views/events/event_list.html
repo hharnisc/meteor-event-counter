@@ -1,0 +1,9 @@
+<!-- client/views/events/event_list.html -->
+<template name="eventList">
+	{{#each sortedEvents}}
+	<div class="event">
+		<span class="action">{{action}}</span>
+		<span class="count"><strong>{{count}}</strong><span>
+	</div>
+	{{/each}}
+</template>

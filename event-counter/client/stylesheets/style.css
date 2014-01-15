@@ -1,0 +1,41 @@
+/* client/stylesheets/style.css */
+body, html {
+	margin: 0;
+	font-family: "Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #F0F0F0;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	background: #00C18E;
+	color: white;
+	font-weight: 500;
+	font-size: 26px;
+	padding: 10px 15px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+#main {
+	margin-top: 60px;
+}
+
+.event {
+	margin: 10px;
+	padding: 20px;
+	color: #666;
+	background: #FFFFFF;
+	font-weight: 300;
+	border-radius: 3px;
+	font-size: 20px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+	word-wrap:break-word;
+}
+
+.count {
+	float: right;
+}
